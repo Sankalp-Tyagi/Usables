@@ -36,6 +36,8 @@ void KMP(string pat,string txt){
 
 
 //RABIN-KARP STRING MATCHING
+#define d 26
+int q = 101;
 void RBSearch(string pat,string txt,int M, int N){
     
     //Compute (d^(M-1))%q
